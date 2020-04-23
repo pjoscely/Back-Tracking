@@ -37,7 +37,7 @@ def solveLatinSquareCell(row, col, board):
 
 
 #Try all values 1 through n in the cell at (row, col).
-#Recurse on the placement if it doesn't break the constraints of Sudoku.
+#Recurse on the placement if it doesn't break the constraints of the Latin Square.
     for val in range(1, len(board)+1):
 
 #Apply constraints. We will only add the value to the cell if
