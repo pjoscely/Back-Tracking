@@ -21,12 +21,10 @@ def printGrid():
         print()
     print()
     
-
 #Can Queen be placed at row, col
 def canPlaceQueen(row, col):
     global grid
     #Check to the left 
-    
     i = 0
     while(0<= col - i):
         if(grid[row][col - i] == 'Q'):
@@ -52,7 +50,6 @@ def canPlaceQueen(row, col):
         i+=1  
     return True
     
-
 '''
 Backtrack until reminaingQueens equals 0
 '''
